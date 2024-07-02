@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+}
+
+#__nuxt {
+  height: 100%;
+}
+
+// [ Site Theme Color ]
+
+// color.basic
+.t-site-bg {
+  @apply bg-slate-900;
+}
+
+// sidemenu
+.t-side-base-text {
+  @apply text-slate-300 hover:text-gray-200;
+}
+.t-side-layout-card-bg {
+  @apply bg-slate-800;
+}
+.side-card-menu-bg-hover {
+  @apply hover:bg-slate-600;
+}
+.side-menu-bg-hover {
+  @apply hover:bg-slate-800 hover:before:bg-slate-800;
+}
+
+// chat
+.t-chat-wrapper-bg {
+  @apply bg-slate-50 ring-1 ring-slate-200;
+}
+
+.t-accent-bg {
+  @apply bg-yellow-400 group-hover:bg-yellow-500 hover:bg-yellow-500;
+}

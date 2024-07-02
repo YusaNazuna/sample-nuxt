@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "name": "client: chrome",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+			"type": "node",
+			"name": "server: nuxt",
+			"request": "attach",
+			"skipFiles": [
+				"<node_internals>/**"
+			],
+		},
+  ],
+  "compounds": [
+    {
+      "name": "fullstack: nuxt",
+      "configurations": [
+        "server: nuxt",
+        "client: chrome"
+      ]
+    }
+  ]
+}

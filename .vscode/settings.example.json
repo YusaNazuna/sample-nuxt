@@ -1,0 +1,10 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "scss.lint.unknownAtRules": "ignore",
+  "files.insertFinalNewline": true,
+  "files.eol": "\n",
+  "remote.WSL.fileWatcher.pollingInterval": 1000,
+  "remote.WSL.fileWatcher.polling": true
+}

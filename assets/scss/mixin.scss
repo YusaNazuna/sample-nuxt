@@ -1,0 +1,33 @@
+@mixin attatchScrollbar($color:dark) {
+  &::-webkit-scrollbar{
+    width: 0.6rem;
+    background-color: transparent;
+  }
+  &::-webkit-scrollbar-track{
+    background-color: transparent;
+  }
+  &::-webkit-scrollbar-thumb{
+    @apply bg-gray-900;
+    @if $color == light {
+      @apply bg-gray-200;
+    }
+    border-radius: 1rem;
+  }
+}
+
+@mixin fadeTransition() {
+  &.v-enter-active,
+  &.v-leave-active {
+    transition: opacity 0.8s, scale 0.8s;
+  }
+
+  &.v-enter-from {
+    scale: 0.9;
+    opacity: 0;
+  }
+
+  &.v-leave-to {
+    scale: 0.9;
+    opacity: 0;
+  }
+}

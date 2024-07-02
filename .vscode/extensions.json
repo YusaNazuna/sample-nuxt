@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "Vue.vscode-typescript-vue-plugin",
+    "dbaeumer.vscode-eslint",
+    "antfu.unocss",
+    "yzhang.markdown-all-in-one",
+    "shardulm94.trailing-spaces",
+    "mhutchie.git-graph",
+    "eamodio.gitlens"
+  ]
+}

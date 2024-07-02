@@ -1,0 +1,9 @@
+<template>
+  <UButton
+    class="w-max"
+    size="xs"
+    variant="ghost"
+    color="slate"
+    icon="i-material-symbols:copy-all-outline-rounded"
+  />
+</template>

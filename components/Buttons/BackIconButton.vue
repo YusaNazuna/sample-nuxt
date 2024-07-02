@@ -1,0 +1,11 @@
+<template>
+  <UButton
+    class="w-max"
+    size="xs"
+    variant="link"
+    :padded="false"
+    icon="i-material-symbols:arrow-back-ios-new-rounded"
+  >
+    Back
+  </UButton>
+</template>
